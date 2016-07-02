@@ -12,3 +12,5 @@ What will you learn with this code sample?
 3) printf function
 
 4) system function
+
+This program was made with Microsoft Visual Studio Ultimate 2012 as an empty Win 32 Console Application
