@@ -1,26 +1,36 @@
 /*****
-* Nombre: primera.cpp
-* Prop髎ito: Aprender a mostrar una cadena de texto con la funci髇 printf en C
-* Autor: Ander Conal
+*ES_Nombre: primera.cpp
+*EN_ Name: primera.cpp
+*ES_Prop贸sito: Aprender a mostrar una cadena de texto con la funci贸n printf en C
+*EN_Purpose: Learn to display a string with the printf function on C
+*ES_Autor: Ander Conal
+*EN_Author: Ander Conal
 *****/
 
-/*Importamos la librer韆 stdio.h "standard input-output header"*/
+/*ES_Importamos la librer铆a stdio.h "standard input-output header"*/
+/*EN_We import the library named stdio.h (standard input-output header)*/
 #include <stdio.h>
 
-/*Librer韆 necesaria para utilizar la funci髇 system()*/
+/*ES_Librer铆a necesaria para utilizar la funci贸n system()*/
+/*EN_Necessary library for use the system() function*/
 #include <stdlib.h>
 
-/*Funci髇 llamada autom醫icamente cuando el programa es ejecutado. Devuelve un entero y no recibe argumentos*/
+/*ES_Funci贸n llamada autom谩ticamente cuando el programa es ejecutado. Devuelve un entero y no recibe argumentos*/
+/*EN_This function is automatically called when the program runs. Returns an integer and no arguments (void)*/
 int main(void) 
 {
-	/*Utilizamos la funci髇 printf para mostrar el texto que deseamos*/
+	/*ES_Utilizamos la funci贸n printf para mostrar el texto que deseamos*/
+	/*EN_We use the printf() function to display the desired text on screen*/
 	printf("Aprendiendo C con Ander Conal. \n");
-	/*Utilizamos \n "new-line character" para pasar a la siguiente l韓ea*/
+	/*ES_Utilizamos \n "new-line character" para pasar a la siguiente l铆nea*/
+	/*EN_We use the new-line character "\n" for go to the next line*/
 	printf("Learning C with Ander Conal.\n");
 
-	/*Utilizamos esta funci髇 para que el programa no se cierre hasta que pulsemos una tecla*/
+	/*ES_Utilizamos esta funci贸n para que el programa no se cierre hasta que pulsemos una tecla*/
+	/*EN_We use this function because we don麓t want to close the program until a key is pressed*/
 	system("pause");
 
-	/*Indicamos que el programa termina de manera natural devolviendo el entero 0*/
+	/*ES_Indicamos que el programa termina de manera natural devolviendo el entero 0*/
+	/*EN_We indicate that the program terminates naturally returning the 0 integer*/
 	return 0;
 }
